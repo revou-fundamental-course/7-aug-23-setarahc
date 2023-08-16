@@ -3,16 +3,16 @@ body {
 }
 
 header {
-    background-color: #512B81;
+    background-color: #512b81;
     color: white;
-    text-align: center;
+    text-align: 100px;
     margin-left: 100px;
     margin-right: 100px;
     border-radius: 10px;
 }
 
 .input-section {
-    display: flex;
+    display:flex;
     flex-direction: column;
 }
 
@@ -34,7 +34,7 @@ input {
 }
 
 input:focus {
-    border-color: #512B81;
+    border-color: #512b81;
 }
 
 button {
@@ -54,6 +54,6 @@ button:hover {
 }
 
 button:active {
-    transform:translateY(10px);
-    background-color: #35155D;
+    transform: translateY(1px);
+    background-color: #512B81;
 }
